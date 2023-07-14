@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            background-color: rgb(221, 221, 221);
+        }
+        .one{
+            border:2px solid gray ;
+            width: 30%;
+            color: cadetblue;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            margin-left: 23px;
+            padding: 20px;
+            box-shadow:  0 0 10px #000000;
+            
+        }            
+    
+        
+        
+        .a , .b{
+            width: 100%;
+            color:cadetblue ;
+            border-radius: 5px;
+            height: 35px;
+        
+        }
+        button{
+            color: white;
+            background-color: #4caf50;
+            width: 100%;
+            border-radius: 10px;
+            height: 35px;
+        }
+        h2{text-align: center;}
+
+
+    </style>
+</head>
+<body>
+    <div class="one">
+        <h2> DISCOUNT CALCULATOR</h2>
+        <span>Enter the Bill amount and discount in percentage</span><br><br>
+        <form >
+            <label> Bill Amount</label><br>
+            <input type="number" class="a" placeholder="Enter the Amount"><br>
+            <label>Discount Persentage</label><br>
+            <input type="number" class="b" placeholder="Enter the Persentage"><br><br>
+            <button type="submit">CALCULATE</button><br>
+            <br>
+            <label>Total Discount Amount</label>
+        </form>
+    </div>
+
+
+    
+</body>
+</html>
