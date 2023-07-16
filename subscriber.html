@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">    <style>
+        .child *{
+            font-family: 'Lugrasimo', cursive;
+            font-size: small;
+        }
+        .one{
+            height: 540px;width: 400px;
+            border: 2px solid black;
+            background-color: white;
+            border-radius: 10px;
+            margin-left: 23px;
+            padding: 20px;
+            box-shadow:  0 0 10px #000000;
+        }
+        .child{
+            border: 2px solid black;
+            height: 170px; width: 360px;
+            margin:auto;
+            border-radius: 10px;background-color: cadetblue;
+        }
+        .text{
+            margin-left: 20px;
+        }
+        .head{
+            margin-left: 20px;
+            font-family: 'Lugrasimo', cursive;
+        }
+        #email{
+            border-radius: 5px;
+            width: 350px;
+            height: 30px;
+            background-color: rgb(231, 231, 231);
+        }
+        #reason{
+            border-radius: 5px;
+            width: 350px;
+            height: 50px;
+            background-color: rgb(231, 231, 231);
+        }
+        #bt{
+            height: 30px;width: 100px;
+            margin-left: 70%;
+        }
+        .child *{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <h1 class="head">Subscriber</h1>
+        <hr>
+        <br>
+        <div class="child">
+            <p class="text">We're sorry to see you go, but hey, no hard feelings, hopefully we will see you back one day.<br>
+                Please fill in your email address in order to unsubscribe from the list.<br>
+                You will receive an email to confirm your unsubscription, just to make sure this is not an accident or somebody else tries to unsubscribe you.
+            </p>
+            <br>
+            <label>Email*</label><br>
+            <input type="text" id="email" placeholder="&nbsp Enter The Email "><br><br>
+            <label>Unsubscribe Reason</label><br>
+            <input type="text" name="reason" id="reason" placeholder="&nbsp Unsubscribe Reason"><br><br><br>
+            <button type="submit" id="bt">Unsubscribe</button>
+        </div>
+    </div>
+    
+</body>
+</html>
