@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position page</title>
+    <style>
+      .one {
+        display: inline-block;
+
+        width: 250px;
+        height: 320px;
+        border-radius: 10px;
+        list-style-type: none;
+        background-color: rgb(252, 243, 227);
+
+      }
+
+      .two {
+        display: inline-block;
+
+        width: 250px;
+        height: 320px;
+        border-radius: 10px;
+        list-style-type: none;
+        background-color: rgb(252, 243, 227);
+        position: relative;
+        bottom: 30px;
+      }
+      .three {
+        display: inline-block;
+
+        width: 250px;
+        height: 320px;
+        border-radius: 10px;
+        list-style-type: none;
+        background-color: rgb(252, 243, 227);
+      }
+      .basic {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        background-color: rgb(255, 214, 138);
+        text-align: center;
+        height: 60px;
+      }
+      #btn {
+        height: 30px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: orange;
+        color: white;
+        border: none;
+        margin-left: 25px;
+        margin-top: -50px;
+      }
+
+      .standard2 {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(250, 205, 121);
+        height: 60px;
+      }
+
+
+      .standard3 {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(250, 180, 51);
+        height: 60px;
+      }
+
+      .one,
+      .two,
+      .three {
+        margin-left: 50px;
+        margin-top: 100px;
+        box-shadow: rgba(0, 0, 0, 1) 1.95px 1.95px 2.6px;
+      }
+      ol {
+            list-style: none;
+            padding-top: 5px;
+            font-size: 20px;
+            padding-left: 70px;
+            color: grey;
+        }
+      .amount{
+        text-align: center;
+        font-size: 27px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="one">
+        <div class="basic"><h2>Basic</h2></div>
+        <ol>
+          <li>✔️Hosting</li>
+          <li>❌Domain</li>
+          <li>✔️1 GB Space</li>
+          <li>❌Free SSL</li>
+          <li>✔️1 Website Host</li>
+        </ol>
+        <h1 class="amount"><strong>$5</strong></h1>
+        <button type="submit" id="btn">Buy Now</button>
+      </div>
+      <div class="two">
+        <div class="standard2"><h2>Standard</h2></div>
+        <ol>
+          <li>✔️Hosting</li>
+          <li>✔️Domain</li>
+          <li>✔️1 GB Space</li>
+          <li>❌Free SSL</li>
+          <li>✔️1 Website Host</li>
+        </ol>
+
+        <h1 class="amount"><strong>$10</strong></h1>
+
+        <button type="submit" id="btn">Buy Now</button>
+      </div>
+      <div class="three">
+        <div class="standard3"><h2>premium</h2></div>
+        <ol>
+          <li>✔️Hosting</li>
+          <li>✔️Domain</li>
+          <li>✔️1 GB Space</li>
+          <li>✔️Free SSL</li>
+          <li>✔️1 Website Host</li>
+        </ol>
+
+        <h1 class="amount"><strong>$20</strong></h1>
+
+        <button type="submit" id="btn">Buy Now</button>
+      </div>
+    </div>
+  </body>
+</html>
